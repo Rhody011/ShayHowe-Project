@@ -57,6 +57,8 @@ body{
   background:#293f50;
   color:#888;
    font: 100 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   width:100%;
+   
 }
 
 strong {
@@ -105,8 +107,8 @@ h5 {
 }
 .container {
   display:flex;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .container a:hover h3{
   color:#a9b2b9;
@@ -290,6 +292,8 @@ Primary Header
 .tagline{
   margin: 66px 0 22px 200px;
   text-align: right;
+  
+ 
 }
 .primary-nav{
   font-size: 10px;
@@ -300,7 +304,7 @@ Primary Header
 }
 .nav li{
   display:inline-block;
-   margin: 0 10px;
+   margin: 0 5px;
   vertical-align: top;
 }
 .primary-footer small{
